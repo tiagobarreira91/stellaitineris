@@ -1,0 +1,146 @@
+<style>
+  .infographic-table {
+    width: 100%;
+    max-width: 720px;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto;
+  }
+
+  .infographic-table thead th {
+    text-align: left;
+    font-weight: 700;
+    color: #222;
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0077cc;
+  }
+
+  .infographic-table tbody tr {
+    background: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .infographic-table tbody td {
+    padding: 20px 25px;
+    vertical-align: top;
+    color: #444;
+  }
+
+  .concept-cell {
+    width: 160px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #004a99;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .concept-cell svg {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    fill: #0077cc;
+  }
+
+  .description-cell {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .features-cell {
+    font-size: 14px;
+  }
+
+  .features-list {
+    padding-left: 15px;
+    margin: 0;
+  }
+
+  .features-list li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 24px;
+    color: #005ea8;
+    font-weight: 600;
+  }
+
+  .features-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #0077cc;
+    border-radius: 50%;
+  }
+
+  .examples-cell {
+    background: #e6f0ff;
+    border-left: 5px solid #0077cc;
+    font-style: italic;
+    color: #003d66;
+    font-weight: 600;
+    padding: 18px 22px;
+    border-radius: 0 10px 10px 0;
+    width: 180px;
+  }
+</style>
+
+<table class="infographic-table" role="table" aria-label="Infografía conceptual sobre diglosia y bilingüismo">
+  <thead>
+    <tr>
+      <th>Concepto</th>
+      <th>Descripción</th>
+      <th>Características clave</th>
+      <th>Ejemplos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="concept-cell">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 2a7 7 0 0 1 7 7v2h2v9h-18v-9h2v-2a7 7 0 0 1 7-7zM9 9v-2a3 3 0 0 1 6 0v2H9zm5 11h-4v-3h4v3z" />
+        </svg>
+        Diglosia
+      </td>
+      <td class="description-cell">
+        Fenómeno sociolingüístico con dos variedades o lenguas coexistiendo con distinto estatus social.
+      </td>
+      <td class="features-cell">
+        <ul class="features-list">
+          <li>Variedad alta (A): prestigiosa y ligada a la alta cultura.</li>
+          <li>Variedad baja (B): popular e informal.</li>
+        </ul>
+      </td>
+      <td class="examples-cell">
+        Comunidades con jerarquía funcional en las lenguas
+      </td>
+    </tr>
+
+    <tr>
+      <td class="concept-cell">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M12 4a4 4 0 0 1 4 4v2h2v6h-12v-6h2v-2a4 4 0 0 1 4-4zm-2 12h4v-4h-4v4z" />
+        </svg>
+        Bilingüismo
+      </td>
+      <td class="description-cell">
+        Uso habitual de dos lenguas sin diferencias de estatus entre ellas.
+      </td>
+      <td class="features-cell">
+        <ul class="features-list">
+          <li>Reconocimiento legal y político igualitario.</li>
+          <li>Presencia similar en espacios públicos, educativos y medios.</li>
+        </ul>
+      </td>
+      <td class="examples-cell">
+        Canadá (inglés y francés)
+      </td>
+    </tr>
+  </tbody>
+</table>
